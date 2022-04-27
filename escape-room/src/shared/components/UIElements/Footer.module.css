@@ -1,0 +1,39 @@
+.footer {
+  background-color: #00467c;
+  padding: 20px;
+  height: 15rem;
+  position: relative;
+}
+
+.footer__container {
+  height: 100%;
+}
+
+.footer__container__left__logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.footer__container__right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  color: white;
+  text-align: right;
+}
+
+.footer__container__right__text {
+  position: absolute;
+  width: 100%;
+  right: 5%;
+  top: 80%;
+  right: 3%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 500;
+}

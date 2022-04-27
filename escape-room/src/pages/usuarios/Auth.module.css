@@ -1,0 +1,128 @@
+.container {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  min-height: 58vh;
+  margin: 2rem auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  margin: auto;
+  position: relative;
+  width: 100%;
+  padding-bottom: 7rem;
+  border-bottom: 2px solid rgba(109, 109, 109, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  top: 0;
+  left: 0;
+  padding: 0 2rem;
+  margin-bottom: 2.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+.enviarButton {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cambioModo {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+
+  text-align: center;
+}
+
+.cambioModo__texto {
+  color: rgb(105, 105, 105);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  cursor: default;
+}
+
+.cambioModo__boton {
+  height: 2.6rem;
+  padding: 0.2rem;
+  padding-left: 0;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  transform: scale(0.9);
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid rgb(105, 105, 105);
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.cambioModo__boton:hover {
+  transform: scale(0.9);
+  color: rgb(71, 71, 71);
+}
+
+.error {
+  color: red;
+  padding-left: 2rem;
+}
+
+.spinner {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.spinner--signup {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1320px) {
+  html {
+    font-size: 90.5%;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    margin: 1rem auto;
+    width: 92%;
+  }
+}
+
+@media (max-width: 600px) {
+  .html {
+    font-size: 85.5%;
+  }
+}
